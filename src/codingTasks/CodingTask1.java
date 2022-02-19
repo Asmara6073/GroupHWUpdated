@@ -30,7 +30,7 @@ public class CodingTask1 {
 		
 		
 		for(int i=0;i<size;i++) {
-			System.out.println("Enter an element");
+			System.out.println("Enter the element for element "+i);
 			nums[i]=input.nextInt();
 			sum+=nums[i];
 		}System.out.println("The sum of all of your stored elements in this array is " +sum);
